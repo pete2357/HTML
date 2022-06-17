@@ -1,0 +1,22 @@
+<html>
+<body>
+    <h2>
+        Date and Time Display
+    </h2>
+    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+        Click to display Date and Time
+    </button>
+    <p id="demo"></p>
+    <h2>
+        What Can JavaScript do?
+    </h2>
+    <p id="demo">JavaScript can change HTML content</p>
+    <button type="button" onclick='document.getElementbyID("demo").innerHTML = "Hello Javascript!"'>Click Me!</button>
+    <h2>Bulb Switch</h2>
+    <p>JavaScript can change HTML attributes values.</p>
+    <p>In this case JavaScript changes the value of the src(source) attribute of an image</p>
+    <button onclick="document.getElementByID('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+    <img id="myImage" src="pic_bulboff.gif" style="width:100px">
+    <button onclick="document.getElementByID('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+</body>
+</html>
